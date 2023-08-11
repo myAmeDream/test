@@ -12,3 +12,4 @@ int main()
     ccc.c = 8;
     cout<<sizeof(Temp);
 }
+上述代码是4个字节
