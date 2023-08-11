@@ -1,0 +1,14 @@
+typedef struct {
+    uint8_t a;
+    uint8_t c;
+    uint16_t b;
+} Temp;
+
+int main()
+{
+    Temp ccc{};
+    ccc.a = 0xcc;
+    ccc.b = 0xffff;
+    ccc.c = 8;
+    cout<<sizeof(Temp);
+}
