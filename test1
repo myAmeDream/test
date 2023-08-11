@@ -13,3 +13,19 @@ int main()
     cout<<sizeof(Temp);
 }
 上述代码是4个字节
+
+typedef struct {
+    uint8_t a;
+    uint16_t b;
+    uint8_t c;
+} Temp;
+
+int main()
+{
+    Temp ccc{};
+    ccc.a = 0xcc;
+    ccc.b = 0xffff;
+    ccc.c = 8;
+    cout<<sizeof(Temp);
+}
+上述代码是6个字节
